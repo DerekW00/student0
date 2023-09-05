@@ -10,7 +10,7 @@ LIBRARIES=wc_sort.o
 ifeq "$(UNAME)" "aarch64"
 	LIBRARIES:=wc_sort_arm.o
 endif
-ifeq "(UNAME)" "arm64"
+ifeq "$(UNAME)" "arm64"
 	LIBRARIES:=wc_sort_arm.o
 endif
 
